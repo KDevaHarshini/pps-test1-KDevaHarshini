@@ -1,4 +1,4 @@
-#include<stdio.h>
+ncl#iude<stdio.h>
 int main()
 {
   int a,b,c;
