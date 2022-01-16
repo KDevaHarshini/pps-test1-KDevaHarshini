@@ -1,4 +1,18 @@
- gcc -g p0original.c
+gcc -g p0original.c
+ gdb a.out
+GNU gdb (Ubuntu 8.1.1-0ubuntu1) 8.1.1
+Copyright (C) 2018 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.h
+ 
+ gcc -g p0original.c
+ gdb a.out
+GNU gdb (Ubuntu 8.1.1-0ubuntu1) 8.1.1
+Copyright (C) 2018 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+ 
+ gcc -g p0original.c
  gdb a.out
 GNU gdb (Ubuntu 8.1.1-0ubuntu1) 8.1.1
 Copyright (C) 2018 Free Software Foundation, Inc.
@@ -15,30 +29,25 @@ Find the GDB manual and other documentation resources online at:
 For help, type "help".
 Type "apropos word" to search for commands related to "word"...
 Reading symbols from a.out...done.
-(gdb) break main
+(gdb) b main
 Breakpoint 1 at 0x772: file p0original.c, line 3.
 (gdb) r
-Starting program: /home/runner/pps-test1-KDevaHarshini-2/a.out 
+Starting program: /home/runner/pps-test1-KDevaHarshini-4/a.out 
 warning: Error disabling address space randomization: Operation not permitted
 
 Breakpoint 1, main () at p0original.c:3
 3   {
 (gdb) n
-5     printf("enter your name\n");
+5     printf("Enter your name\n");
 (gdb) n
-enter your name
+Enter your name
 6     scanf("%s",a);
 (gdb) n
-harshini
+Harshini
 7     printf("name is %s",a);
+(gdb) n
+8     return 0;
 (gdb) c
 Continuing.
-name is harshini[Inferior 1 (process 85) exited normally]
+name is Harshini[Inferior 1 (process 185) exited normally]
 (gdb) 
-The program is not being run.
-(gdb) 
-The program is not being run.
-(gdb) 
-The program is not being run.
-(gdb) Quit
-(gdb)  
