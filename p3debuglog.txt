@@ -1,4 +1,4 @@
-gcc -g p3original.c
+gcc -g p2original.c
  gdb a.out
 GNU gdb (Ubuntu 8.1.1-0ubuntu1) 8.1.1
 Copyright (C) 2018 Free Software Foundation, Inc.
@@ -38,16 +38,15 @@ Breakpoint 1, main () at p3original.c:16
 (gdb) n
 18    input(&a,&b);
 (gdb) n
-Enter two number 
-1
-2
+Enter two number
+1 2
 19    add(a,b,&sum);
 (gdb) n
 20    output(a,b,sum);
 (gdb) n
-sum of 1 + 2 is 3
+sum of 1 +2 is 3
 21    return 0;
 (gdb) c
 Continuing.
-[Inferior 1 (process 186) exited normally]
-(gdb) 
+[Inferior 1 (process 500) exited normally]
+(gdb) ^V
