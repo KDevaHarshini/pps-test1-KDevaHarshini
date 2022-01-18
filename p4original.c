@@ -12,20 +12,20 @@ int cmp(int a,int b,int c)
 int input()
 {
   int a;
-   printf("enter the numbers\n");
+  printf("enter the numbers\n");
   scanf("%d",&a);
   return a;
 }
 void output(int l)
 {
   printf("big number is : %d\n",l);
-}   
+}
 int main()
 {
   int a,b,c,l;
-a=input();
-b=input();
-c=input();
-l=cmp(a,b,c);
-return 0;
+  a=input();
+  b=input();
+  c=input();
+  l=cmp(a,b,c);
+  return 0;
 }

@@ -22,23 +22,23 @@ Starting program: /home/runner/pps-test1-KDevaHarshini-4/a.out
 warning: Error disabling address space randomization: Operation not permitted
 
 Breakpoint 1, main () at p4original.c:26
-26  a=input();
+26    a=input();
 (gdb) n
 enter the numbers
-3
-27  b=input();
+9
+27    b=input();
 (gdb) n
 enter the numbers
-4
-28  c=input();
+11
+28    c=input();
 (gdb) n
 enter the numbers
 5
-29  l=cmp(a,b,c);
+29    l=cmp(a,b,c);
 (gdb) n
-C is big
-30  return 0;
+B is big
+30    return 0;
 (gdb) c
 Continuing.
-[Inferior 1 (process 249) exited normally]
+[Inferior 1 (process 77) exited normally]
 (gdb) 
