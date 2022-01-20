@@ -1,34 +1,29 @@
 #include<stdio.h>
-int input()
+int input_n()
 {
   int n;
-  printf("Enter the number:\n");
+  printf("Enter the number :\n");
   scanf("%d",&n);
   return n;
 }
 int sum_n(int n)
 {
   int i,sum=0;
-  for(i=1;i<n;i++)
+  for(i=1; i<=n; i++)
 {
-  sum = sum +i;
+  sum = sum + i;
 }
-  return sum;
+return sum;
 }
 void output(int sum,int n)
 {
-  int j;
-  for(j=1;j<n;j++)
-{
-  printf("%d+",j);
-}
-  printf("%d is %d",j,sum);
+  printf("Sum = %d",sum);
 }
 int main()
 {
   int n,sum,i;
-  n=input();
-  sum = sum_n(n);
+  n=input_n();
+  sum=sum_n(n);
   output(sum,n);
   return 0;
-}      
+}
