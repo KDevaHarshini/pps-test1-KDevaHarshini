@@ -33,5 +33,5 @@ Enter the number :
 28    return 0;
 (gdb) c
 Continuing.
-Sum = 15[Inferior 1 (process 480) exited normally]
-(gdb) 
+Sum = 15[Inferior 1 (process 173) exited normally]
+(gdb)  
