@@ -17,11 +17,11 @@ int input_array(int n,int a[n])
 }
 int sum_n_arrays(int n,int a[n])
 {
-  int i, sum=0;
+  int i,sum=0;
   for(i=0;i<n;i++)
 {
-  sum = sum + a[i];
-}
+  sum = sum +a[i];
+}  
 return sum;
 }
 void output(int n,int a[n],int sum)
@@ -35,7 +35,7 @@ printf("%d is %d",a[n-1],sum);
 }
 int main()
 {
-  int i, n,sum,a[i];
+  int i,n,sum,a[i];
   n = input_array_size();
   a[i] = input_array(n,a);
   sum = sum_n_arrays(n,a);
