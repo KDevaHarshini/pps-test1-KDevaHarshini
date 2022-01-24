@@ -22,16 +22,14 @@ Starting program: /home/runner/pps-test1-KDevaHarshini-4/a.out
 warning: Error disabling address space randomization: Operation not permitted
 
 Breakpoint 1, main () at p8original.c:28
-28    s=input();
+28    s = input();
 (gdb) n
-Enter a number to find out the square root of: 5
-29    s1=squareroot(s);
+Enter a number to find out the square root of: 7
+29    s1 = squareroot(s);
 (gdb) n
 30    output(s,s1);
 (gdb) n
-Square root of given input 5.00 is = 2.24
+Square root of given input 7.00 is = 2.65
 31    return 0;
 (gdb) c
 Continuing.
-[Inferior 1 (process 110) exited normally]
-(gdb) 
