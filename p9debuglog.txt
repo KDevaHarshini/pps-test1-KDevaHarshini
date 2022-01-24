@@ -1,9 +1,4 @@
- gcc -g p9original.c
- gdb a.out
-GNU gdb (Ubuntu 8.1.1-0ubuntu1) 8.1.1
-Copyright (C) 2018 Free Software Foundation, Inc.
- 
- gcc -g p9original.c
+gcc -g p9original.c
  gdb a.out
 GNU gdb (Ubuntu 8.1.1-0ubuntu1) 8.1.1
 Copyright (C) 2018 Free Software Foundation, Inc.
@@ -41,5 +36,5 @@ world is greater than hello
 65    return 0;
 (gdb) c
 Continuing.
-[Inferior 1 (process 170) exited normally]
+[Inferior 1 (process 267) exited normally]
 (gdb)  
